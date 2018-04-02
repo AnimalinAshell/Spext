@@ -1,7 +1,6 @@
 $("button").click(function() {
     let usersText = $("#ta").val();
-  responsiveVoice.speak(usersText, "UK English Female", { volume: 1 });
+  responsiveVoice.speak(usersText, "UK English Female", { volume: 3 });
 })
-
 
 
